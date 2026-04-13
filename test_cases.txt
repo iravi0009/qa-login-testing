@@ -1,1 +1,30 @@
+Test Case ID: TC01
+Title: Valid Login
+Steps:
+1. Open login page
+2. Enter valid username and password
+3. Click login
+Expected Result:
+User should be redirected to dashboard
 
+----------------------------------------
+
+Test Case ID: TC02
+Title: Invalid Password
+Steps:
+1. Open login page
+2. Enter valid username and wrong password
+3. Click login
+Expected Result:
+Error message should be displayed
+
+----------------------------------------
+
+Test Case ID: TC03
+Title: Empty Fields
+Steps:
+1. Open login page
+2. Leave username and password blank
+3. Click login
+Expected Result:
+Validation error should be shown
